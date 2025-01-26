@@ -1,4 +1,4 @@
-let arr = [10, 20, 20, 30, 40, 50, 50];
+var numbers = [1, 2, 3, 3, 4, 4, 5, 6, 7, 8, 9, 10];
 let unique = [];
 arr.forEach((element) => {
   if (!unique.includes(element)) {
